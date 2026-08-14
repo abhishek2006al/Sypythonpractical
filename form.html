@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Student Information Form</title>
+
+    <style>
+        body {
+            background-color: skyblue;
+
+            
+        }
+
+        h1 {
+            color: white;
+            underline-color:black;
+        }
+
+        .form1 {
+            
+            padding: 30px;
+            width: 400px;
+            margin: auto;
+            border-radius: 10px;
+            background-image:url("qwer.jpg");
+            
+           
+            
+        }
+
+        input, textarea {
+            padding: 8px;
+            width: 200px;
+        }
+        input placeholder{
+            border-color:blue;
+
+        }
+
+        .button1 {
+            background-color:yellow; 
+            padding: 8px 15px;
+            margin: 5px;
+            border-color:blue;
+            text-color:green;
+        }
+      .button2 {
+            background-color:pink; 
+            padding: 8px 15px;
+            margin: 5px;
+            border-color:blue;
+            text-color:green;
+        }
+       
+    </style>
+</head>
+
+<body><center>
+
+    <h1><i><u>Student Form</u></i></h1>
+
+    <form class="form1">
+
+
+        <label>Name:</label>
+        <input type="text" name="name"placeholder="Enter your name">
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email"placeholder="Enter your email">
+        <br><br>
+
+        <label>Address:</label>
+        <textarea name="address"placeholder="Enter your address" ></textarea>
+        <br><br>
+
+        <label>Contact no:</label>
+        <input type="tel" name="contact"placeholder="Enter 10 digit number">
+        <br><br>
+
+        <label>Date of birth:</label>
+        <input type="date" name="dob" >
+        <br><br>
+
+        <button onclick="alert('Congratulations!🎊 ')"class="button1">Submit</button>
+        <button type="reset"class="button2">Clear</button>
+        <script>function showMagicAlert() {
+    document.getElementById("magicAlert").style.display = "flex";
+  }
+
+  function closeMagicAlert() {
+    document.getElementById("magicAlert").style.display = "none";
+  }
+</script>
+        
+
+        
+    </form>
+
+</body>
+</html>
